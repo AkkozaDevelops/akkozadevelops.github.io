@@ -1,1 +1,4 @@
-Akkoza:{SHA}qUqP5cyxm6YcTAhz05Hph5gvu9M=
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile /pass.htpasswd
+require valid-user
