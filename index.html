@@ -5,14 +5,40 @@
     <title>Akkoza's Website</title>
     <link rel="stylesheet" href="./style.css">
   </head>
+
+  <script>
+  function time() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML = standardTime(h) + ":" + m + ":" + s + timestamp(h);
+    var t = setTimeout(time, 500);
+   }
+   function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+   }
+   
+    function timestamp(hour) {
+    if (hour < 12) { return " AM";} else { return " PM";};
+    }
+    function standardTime(hour) {
+      if (hour < 12) {return hour;} else {return hour-12;};
+    }
+  </script>
   
   <style>
     
   </style>
   
-  <body class="grad" text="#ffffff">
+  <body class="grad" text="#ffffff" onload="time()">
     <h1 align="center">Welcome to my website.</h1>
-    <p> I should probably use this for something</p>
+    <!--<button align="center" class="button" onclick="getElementById('test').innerHTML = Date()">test</button>-->
+    <h2 id="time" align="center">0:00:00 AM</h2>
+
   </body>
   
 </html>
