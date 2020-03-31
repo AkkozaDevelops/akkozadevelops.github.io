@@ -1,3 +1,46 @@
+.button {
+  font-family: 'Spartan', sans-serif;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ededed;
+}
+
 .grad {
   background: linear-gradient(90deg, rgba(0,17,36,1) 0%, rgba(9,70,121,1) 30%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h2 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h3 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h4 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h5 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h6 {
+  font-family: 'Spartan', sans-serif;
+}
+
+p {
+  font-family: 'Spartan', sans-serif;
 }
