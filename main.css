@@ -42,7 +42,16 @@ body {
     font-size: 17px;
 }
 
+.paddedLeft{
+    padding: 14px 16px;
+}
 
+.importantText{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    font-size: 18px;
+}
 
 p {
     color: #99AAB5;
