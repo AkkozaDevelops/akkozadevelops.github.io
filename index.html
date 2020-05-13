@@ -35,7 +35,9 @@
 	}
 
 	function standardTime(hour) {
-		if (hour < 13) {
+		if (hour == 0) {
+			return "12"
+		} else if (hour < 13) {
 			return hour;
 		} else {
 			return hour - 12;
@@ -54,7 +56,7 @@
 		<!--<p id="time"></p>-->
 		<a href="portfolio">Portfolio</a>
 		<a href="contact">Contact Me</a>
-		<a class="enabled" href="/">Home</a>
+		<a style="color:#99AAB5">Home</a>
 		<!--<a href="games">Games</a>
 	    <a href="bdplugins">BD Plugins</a>
 	    <a href="about">About</a>
