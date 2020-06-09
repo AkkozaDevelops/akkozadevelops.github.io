@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    background-color: #2C2F33;
+    background-color: /* #12263A*/#D4C8AE;
 }
 
 .title {
@@ -48,13 +48,13 @@ body {
 
 .importantText{
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: #FDF9DF;
     padding: 14px 16px;
     font-size: 18px;
 }
 
 p {
-    color: #99AAB5;
+    color: #e4e0ca;
 }
 
 .titleline {
@@ -68,7 +68,7 @@ p {
 
 .nav-top {
     padding: 0;
-    background-color: #23272A;
+    background-color: /*#12263C*/#C0A78E;
     overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ text-align: center;
 background-color: #23272A;
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
-color: #FFFFFF;
+color: #FDF9DF;
 text-decoration: none;
 padding: 5px 5px;
 margin-bottom: 5px;
@@ -104,7 +104,7 @@ margin-bottom: 5px;
 
 .contactmethods a {
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: #FDF9DF;
     text-align: center; 
     margin:0 auto;
     width: 15%;
@@ -115,7 +115,7 @@ margin-bottom: 5px;
 
 .nav-top .title {
     font-family: 'Roboto', sans-serif;
-    color: #7289DA;
+    color: #d8c7a2;
     float: left;
     margin-left: 5px;
     height: 17px;
@@ -128,7 +128,7 @@ margin-bottom: 5px;
 .nav-top a {
     font-family: 'Roboto', sans-serif;
     float: right;
-    color: #FFFFFF;
+    color: #FDF9DF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
