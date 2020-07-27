@@ -6,6 +6,7 @@
         <title>Akkoza's Website</title>
         <link rel="icon" href="./assets/pfp.png" type="image/icon type">
         <link rel="stylesheet" href="styles/newsite.css">
+        <script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
         <script src="https://kit.fontawesome.com/c08a4915fa.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
@@ -40,6 +41,18 @@
                           "objectDescription": "Thank you for being patient.<br>In the mean time, check out the Legacy Portfolio.<br><br>Old website Layout",
                           "objectType": "HTML",
                           "objectRedirect": "./legacy/portfolio"
+                        }
+                      ]
+                    },
+                    {
+                      "categoryName": "BTC Donators",
+                      "categoryChildren": [
+                        {
+                          "objectTitle": "Want to appear here?",
+                          "objectImage": "",
+                          "objectDescription": "If you donate, you can contact me through discord and get a custom message here! [Including: Message Content + Message Icon]",
+                          "objectType": "Must have payment proof!",
+                          "objectRedirect": "./btcdonation"
                         }
                       ]
                     }
@@ -102,7 +115,7 @@
 
             <span class="reference" style="display:block;">
               <i class="fab fa-bitcoin"></i>
-              &nbsp;&nbsp;<a href="https://www.blockchain.com/btc/address/1FveFXUGrNVr2Z5gQcy2dqpfdxQ9CPHo9q">Donate Bitcoin</a>
+              &nbsp;&nbsp;<a href="./btcdonation/" id="donate">Donate Bitcoin</a>
             </span>
 
             <!--<span class="reference" style="display:block;">
